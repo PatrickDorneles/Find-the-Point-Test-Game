@@ -1,0 +1,23 @@
+{
+  "name": "GenericRPG",
+  "version": "0.0.1",
+  "description": "A generic rpg with Typescript, Electron and Phaser",
+  "main": "main.js",
+  "repository": "http://github.com/PatrickDorneles/GenericRPG",
+  "author": "PatrickDorneles",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "electron-compile": "^6.4.4",
+    "electron-compilers": "^5.9.0",
+    "electron-prebuilt-compile": "^4.0.0",
+    "phaser": "^3.18.1",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0"
+  }
+}
