@@ -38,9 +38,9 @@ function createWindow() {
     minWidth: width,
     maxHeight: workAreaSize.height,
     maxWidth: workAreaSize.width, 
-    resizable: true, 
+    resizable: false, 
     frame: false, 
-    maximizable: true
+    maximizable: true,
   });
 
   // and load the index.html of the app.

@@ -1,7 +1,7 @@
 {
-  "name": "GenericRPG",
+  "name": "Find the Point",
   "version": "0.0.1",
-  "description": "A generic rpg with Typescript, Electron and Phaser",
+  "description": "A test game with Typescript, Electron and Phaser",
   "main": "main.js",
   "repository": "http://github.com/PatrickDorneles/GenericRPG",
   "author": "PatrickDorneles",

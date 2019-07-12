@@ -5,22 +5,31 @@ import { userInfo } from 'os'
 
 import { height, width } from '../config.js'
 
-class GenericRPG extends Phaser.Game {
+import { MainGameScene } from './scenes/MainGame';
+
+class FindThePoint extends Phaser.Game {
     
     constructor(config: Phaser.Types.Core.GameConfig){
         super(config)
+
+        this.scene.start('MainGame')
+
+        
     }
     
 }
 
 window.onload = () => {
     
-    var game = new GenericRPG({
-        title: "GenericRPG",
+    var game = new FindThePoint({
+        title: "FindThePoint",
         width,
         height: height - 30,
         parent: "game",
-        backgroundColor: "#18216D"
+        backgroundColor: "#000000",
+        scene: [
+            MainGameScene
+        ]
     })
 
     console.log(userInfo().username);
@@ -32,5 +41,5 @@ window.onload = () => {
 
         game.scale.setGameSize(width,height-30)
     })
-    
+
 }    
